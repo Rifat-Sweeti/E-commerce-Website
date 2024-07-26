@@ -1,0 +1,701 @@
+/* -------- Index-------- */
+ul {
+  display: flex;
+  margin: 15px;
+  list-style: none;
+}
+
+.nav_link {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 10px;
+  color: black;
+  font-family: sans-serif;
+  font-size: 13px;
+  position: relative;
+  top: 5px;
+}
+
+.nav__logo {
+  margin-left: 255px;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: sans-serif;
+  border-bottom: 1px solid rgb(139, 130, 130);
+  font-weight: bolder;
+}
+
+.spa {
+  position: relative;
+  top: 24px;
+  right: 80px;
+  color: rgb(139, 130, 130);
+  text-decoration: none;
+}
+
+.wor {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+  position: relative;
+  left: 400px;
+  font-size: 13px;
+  font-family: sans-serif;
+  top: 5px;
+}
+
+.div {
+  background-color: #fce4e4;
+  width: 97%;
+  height: 600px;
+  margin: 25px;
+}
+
+.sa {
+  position: relative;
+  top: 174px;
+  left: 80px;
+  color: rgb(139, 130, 130);
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.mod {
+  position: relative;
+  top: 174px;
+  margin-left: 80px;
+  font-family: sans-serif;
+}
+
+.but {
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 50px;
+  position: relative;
+  bottom: 300px;
+  margin-left: 80px;
+}
+
+.but:hover {
+  color: rgb(139, 130, 130);
+  background-color: #333;
+}
+
+.img {
+  position: relative;
+  bottom: 36px;
+  margin-left: 450px;
+  width: 500px;
+  height: 500px;
+}
+
+.mo, .saw {
+  font-family: sans-serif;
+}
+
+.saw {
+  text-decoration: none;
+  color: rgb(139, 130, 130);
+}
+
+.im {
+  position: relative;
+  right: 326px;
+}
+
+.if {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  bottom: 555px;
+  margin-left: 420px;
+}
+
+.p {
+  color: rgb(139, 130, 130);
+  font-family: sans-serif;
+  position: relative;
+  right: 326px;
+}
+
+.th {
+  font-family: sans-serif;
+  position: relative;
+  right: 326px;
+}
+
+.sh {
+  background-color: black;
+  color: white;
+  width: 120px;
+  height: 50px;
+  position: relative;
+  bottom: 580px;
+  left: 180px;
+}
+
+.sh:hover {
+  background-color: #333;
+  color: rgb(139, 130, 130);
+}
+
+.di {
+  background-image: url(./Images/T-Shirt.webp);
+  width: 97%;
+  height: 600px;
+  margin: 25px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  bottom: 500px;
+}
+
+.sw {
+  position: relative;
+  top: 150px;
+  color: white;
+  text-decoration: none;
+}
+
+.md {
+  position: relative;
+  top: 150px;
+  color: white;
+  text-decoration: none;
+}
+
+.sf {
+  position: relative;
+  top: 150px;
+  left: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.bu {
+  background-color: black;
+  color: white;
+  width: 120px;
+  height: 50px;
+  position: relative;
+  top: 200px;
+  right: 90px;
+}
+
+.bu:hover {
+  color: rgb(139, 130, 130);
+  background-color: #333;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+  margin: 10px;
+  position: relative;
+  bottom: 500px;
+}
+.content {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.image {
+  flex: 1;
+  background-image: url('./Images/women.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.text {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+.text p {
+  margin: 20px 0;
+  color: #666;
+}
+.text button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.text button:hover {
+  background-color: #333;
+  color: rgb(139, 130, 130);
+}
+
+.dv {
+  position: relative;
+  bottom: 500px;
+}
+
+.reviews-section {
+  text-align: center;
+  padding: 50px;
+  background-color: white;
+  position: relative;
+  bottom: 500px;
+}
+.reviews-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.reviews-section p {
+  font-size: 1.1rem;
+  margin: 20px auto;
+  max-width: 800px;
+  color: #666;
+}
+.reviews-section .rating {
+  color: gold;
+  margin-bottom: 10px;
+}
+.reviews-section .author {
+  font-weight: bold;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  position: relative;
+  bottom: 550px;
+}
+.product {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  overflow: hidden;
+}
+.product img {
+  width: 100%;
+  height: auto;
+}
+.product .caption {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.subscription-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #fce4e4;
+  position: relative;
+  bottom: 500px;
+}
+.subscription-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.subscription-section p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+.subscription-section .links {
+  margin-bottom: 20px;
+}
+.subscription-section .links a {
+  margin: 0 15px;
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.subscription-section .social-icons {
+  margin-bottom: 20px;
+}
+.subscription-section .social-icons a {
+  margin: 0 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.footer {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  bottom: 500px;
+}
+
+@media (min-width: 350px) and (max-width: 1000px) {
+  body {
+    margin: 0px;
+  }
+  .nav_link {
+    font-size: 10px;
+  }
+  .nav__logo, .spa, .wor {
+    display: none;
+  }
+  .div {
+    width: 90%;
+    height: 400px;
+    font-size: 12px;
+  }
+  .img {
+    display: none;
+  }
+  .df {
+    display: none;
+  }
+  .di {
+  display: none;
+  }
+  .footer {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact h1 {
+    font-size: 30px;
+  }
+
+  .contact p {
+    font-size: 14px;
+  }
+
+  .get-in-touch h2 {
+    font-size: 22px;
+  }
+
+  .get-in-touch p, .get-in-touch address p {
+    font-size: 13px;
+  }
+
+  .contact-form input, .contact-form textarea {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact h1 {
+    font-size: 28px;
+  }
+
+  .contact p {
+    font-size: 12px;
+  }
+
+  .get-in-touch h2 {
+    font-size: 20px;
+  }
+
+  .get-in-touch p, .get-in-touch address p {
+    font-size: 12px;
+  }
+
+  .contact-form input, .contact-form textarea {
+    font-size: 12px;
+  }
+}
+
+/* -------- Buy -------- */ 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.containe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.tshirt {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.tshirt img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price {
+  color: #888;
+}
+
+.ho {
+  text-decoration: none;
+  color: #666;
+  margin: 60px;
+}
+
+.po {
+  text-decoration: none;
+  color: black;
+  margin: 60px;
+}
+
+.subscription-sectio {
+  text-align: center;
+  padding: 50px;
+  background-color: #fce4e4;
+}
+.subscription-sectio h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.subscription-sectio p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+.subscription-sectio .links {
+  margin-bottom: 20px;
+}
+.subscription-sectio .links a {
+  margin: 0 15px;
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.subscription-sectio .social-icons {
+  margin-bottom: 20px;
+}
+.subscription-sectio .social-icons a {
+  margin: 0 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.foote {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* -------- About -------- */
+main {
+  padding: 2rem 1rem;
+}
+
+.about {
+  text-align: center;
+  padding: 2rem 0;
+  background: #fff;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.mission {
+  background: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.mission h3 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+.mission p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.history {
+  text-align: center;
+  padding: 2rem 0;
+  background: #f9f9f9;
+}
+
+.history h2 {
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+
+.history-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.history-text {
+  flex: 1;
+  margin-right: 1rem;
+  max-width: 500px;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.history-image {
+  flex: 1;
+  max-width: 400px;
+}
+
+.history-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* -------- Contact -------- */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.contact {
+  text-align: center;
+  padding: 20px;
+}
+
+.contact h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #fce4e4;
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.get-in-touch, .contact-form {
+  flex: 1;
+  min-width: 280px;
+  max-width: 300px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.get-in-touch {
+  text-align: left;
+}
+
+.get-in-touch h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.get-in-touch p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.get-in-touch address p {
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #333;
+  color: rgb(139, 130, 130);
+}
+
+.map {
+  margin: 20px 0;
+}
+.subscribe {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.sc {
+  color: black;
+}
