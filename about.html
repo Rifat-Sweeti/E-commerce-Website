@@ -1,56 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
-<body>
-    
-    <header class="l-header">
-        <nav class="nav bd-grid">
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav_item"><a href="buy.html" target="_blank" class="nav_link active-link">Buy T-Shirts</a></li>
-                    <li class="nav_item"><a href="women.html" target="_blank" class="nav_link">Women</a></li>
-                    <li class="nav_item"><a href="men.html" target="_blank" class="nav_link">Men</a></li>
-                    <li class="nav_item"><a href="about.html" target="_blank" class="nav_link">About</a></li>
-                    <li class="nav_item"><a href="contact.html" target="_blank" class="nav_link">Contact</a></li>
-                    <div>
-                        <a href="#" class="nav__logo">T-SHIRTS</a>
-                        <a href="#" class="spa">store</a>
-                    </div>
-                    <li class="nav_item"><a href="#work" class="wor">$0.00</a></li>
-                    <li class="nav_item"><a href="#work" class="wor">LOG IN</a></li>
+<body>
+
+    <!--===== HEADER =====-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" target="_blank">T-Shirts</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 lg-5">
+                    <li class="nav-item max-auto text-center">
+                        <a class="nav-link active" aria-current="page" href="buy.html" target="_blank">BUY T-SHIRTS</a>
+                    </li>
+                    <li class="nav-item max-auto text-center">
+                        <a class="nav-link active" aria-current="page" href="women.html" target="_blank">WOMEN</a>
+                    </li>
+                    <li class="nav-item max-auto text-center">
+                        <a class="nav-link active  " aria-current="page" href="men.html" target="_blank">MEN</a>
+                    </li>
+                    <li class="nav-item max-auto text-center">
+                        <a class="nav-link active  " aria-current="page" href="">ABOUT</a>
+                    </li>
+                    <li class="nav-item max-auto text-center">
+                        <a class="nav-link active  " aria-current="page" href="contact.html" target="_blank">CONTACT</a>
+                    </li>
                 </ul>
+                <li class="nav-item max-auto text-center nav-dark">
+                    <button type="button" class="btn btn-dark"><a href="form.html" target="_blank" class="bg">LOG
+                            IN</a></button>
+                </li>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+
+
+
+
+    <div>
+        <img src="./Images/about.jfif" width="100%" height="300px">
+    </div>
 
     <main>
         <section class="about">
             <h2>About</h2>
-            <p>Proin eu ante vel mauris molestie dignissim non eget nunc. Integer ac massa orci. Suspendisse vulputate semper nunc eget rhoncus.</p>
+            <p>Proin eu ante vel mauris molestie dignissim non eget nunc. Integer ac massa orci. Suspendisse vulputate
+                semper nunc eget rhoncus.</p>
             <div class="about-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu ante vel mauris molestie dignissim non eget nunc. Integer ac massa orci. Suspendisse vulputate semper nunc eget rhoncus. Ut at ante porta quam, interdum tincidunt libero. Nullam venenatis, eros quis scelerisque, dapibus nisl.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu ante vel mauris molestie dignissim
+                    non eget nunc. Integer ac massa orci. Suspendisse vulputate semper nunc eget rhoncus. Ut at ante
+                    porta quam, interdum tincidunt libero. Nullam venenatis, eros quis scelerisque, dapibus nisl.</p>
             </div>
             <div class="mission">
                 <h3>The Mission</h3>
                 <p>At the heart of everything, we set out to offer the best quality.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu ante vel mauris molestie dignissim non eget nunc. Integer ac massa orci. Suspendisse vulputate semper nunc eget rhoncus. Aenean placerat facilisis ex, eu laoreet lorem convallis. Fusce gravida justo a lectus tempus lacinia. Ut mollis scelerisque ultricies. Aenean facilisis efficitur magna, at feugiat massa bibendum at. Etiam ut venenatis urna.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu ante vel mauris molestie dignissim
+                    non eget nunc. Integer ac massa orci. Suspendisse vulputate semper nunc eget rhoncus. Aenean
+                    placerat facilisis ex, eu laoreet lorem convallis. Fusce gravida justo a lectus tempus lacinia. Ut
+                    mollis scelerisque ultricies. Aenean facilisis efficitur magna, at feugiat massa bibendum at. Etiam
+                    ut venenatis urna.</p>
             </div>
         </section>
         <section class="history">
             <h2>How it Started</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                ullamcorper mattis, pulvinar dapibus leo.</p>
             <div class="history-content">
                 <div class="history-text">
-                    <h3>Vel mauris molestie dignissim</h3>
-                    <p>Proin eu ante vel mauris molestie dignissim non eget nunc. Integer ac massa orci. Suspendisse vulputate semper nunc eget rhoncus.</p>
-                    <p>Praesent volutpat ligula. Sed sit amet turpis quam velit aliquam facilisis. Morbi et dui ultrices sollicitudin pulvinar sit amet vitae quam. Phasellus nec ultrices orci. Quisque efficitur tellus sit amet aliquam malesuada. Duis la egestas odio. Phasellus lacinia ex quis faucibus tempor. Sed feugiat.</p>
+                    <h3 class="h3">Vel mauris molestie dignissim</h3>
+                    <p class="para">Proin eu ante vel mauris molestie dignissim non eget nunc. Integer ac massa orci.
+                        Suspendisse vulputate semper nunc eget rhoncus.</p>
+                    <p class="para">Praesent volutpat ligula. Sed sit amet turpis quam velit aliquam facilisis. Morbi et
+                        dui ultrices sollicitudin pulvinar sit amet vitae quam. Phasellus nec ultrices orci. Quisque
+                        efficitur tellus sit amet aliquam malesuada. Duis la egestas odio. Phasellus lacinia ex quis
+                        faucibus tempor. Sed feugiat.</p>
                 </div>
                 <div class="history-image">
                     <img src="./Images/plant.jfif" alt="Image Description">
@@ -58,25 +94,34 @@
             </div>
         </section>
     </main>
+ 
     <div class="subscription-sectio">
         <h2>Subscribe To Get Offers In Your Inbox</h2>
         <p>Lorem ipsum dolor sit amet, adipiscing elit sed do eiusmod condimentum</p>
         <div class="links">
-            <a href="#">Buy T-Shirts</a>
-            <a href="#">Women</a>
-            <a href="#">Men</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="buy.html" target="_blank">Buy T-Shirts</a>
+            <a href="women.html" target="_blank">Women</a>
+            <a href="men.html" target="_blank">Men</a>
+            <a href="about.html" target="_blank">About</a>
+            <a href="contact.html" target="_blank">Contact</a>
         </div>
         <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="https:/facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https:youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https:/instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
     </div>
     <div class="foote">
         Copyright © 2024 T-Shirts Store | Powered by T-Shirts Store
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>

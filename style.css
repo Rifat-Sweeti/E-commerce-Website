@@ -1,48 +1,16 @@
 /* -------- Index-------- */
+body {
+  height: 1000px;
+}
+
 ul {
   display: flex;
   margin: 15px;
   list-style: none;
 }
 
-.nav_link {
-  text-decoration: none;
-  text-transform: uppercase;
-  margin-left: 10px;
-  color: black;
-  font-family: sans-serif;
-  font-size: 13px;
-  position: relative;
-  top: 5px;
-}
-
-.nav__logo {
-  margin-left: 255px;
-  color: black;
-  text-decoration: none;
-  font-size: 25px;
-  font-family: sans-serif;
-  border-bottom: 1px solid rgb(139, 130, 130);
-  font-weight: bolder;
-}
-
-.spa {
-  position: relative;
-  top: 24px;
-  right: 80px;
-  color: rgb(139, 130, 130);
-  text-decoration: none;
-}
-
-.wor {
-  color: black;
-  text-decoration: none;
-  margin-left: 10px;
-  position: relative;
-  left: 400px;
-  font-size: 13px;
-  font-family: sans-serif;
-  top: 5px;
+.nav-dark {
+  list-style: none;
 }
 
 .div {
@@ -74,8 +42,10 @@ ul {
   width: 150px;
   height: 50px;
   position: relative;
-  bottom: 300px;
+  bottom: 30px;
   margin-left: 80px;
+  border-radius: 5px;
+  border: 2px solid black;
 }
 
 .but:hover {
@@ -91,7 +61,8 @@ ul {
   height: 500px;
 }
 
-.mo, .saw {
+.mo,
+.saw {
   font-family: sans-serif;
 }
 
@@ -102,6 +73,7 @@ ul {
 
 .im {
   position: relative;
+  top: 5px;
   right: 326px;
 }
 
@@ -109,7 +81,7 @@ ul {
   width: 600px;
   height: 600px;
   position: relative;
-  bottom: 555px;
+  bottom: 540px;
   margin-left: 420px;
 }
 
@@ -118,6 +90,7 @@ ul {
   font-family: sans-serif;
   position: relative;
   right: 326px;
+  top: 10px;
 }
 
 .th {
@@ -132,8 +105,10 @@ ul {
   width: 120px;
   height: 50px;
   position: relative;
-  bottom: 580px;
+  bottom: 260px;
   left: 180px;
+  border-radius: 5px;
+  border: 2px solid black;
 }
 
 .sh:hover {
@@ -177,11 +152,13 @@ ul {
 .bu {
   background-color: black;
   color: white;
-  width: 120px;
+  width: 180px;
   height: 50px;
   position: relative;
   top: 200px;
-  right: 90px;
+  right: 120px;
+  border-radius: 5px;
+  border: 2px solid black;
 }
 
 .bu:hover {
@@ -199,6 +176,7 @@ ul {
   position: relative;
   bottom: 500px;
 }
+
 .content {
   display: flex;
   width: 80%;
@@ -206,12 +184,14 @@ ul {
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .image {
   flex: 1;
   background-image: url('./Images/women.jpg');
   background-size: cover;
   background-position: center;
 }
+
 .text {
   flex: 1;
   padding: 50px;
@@ -219,14 +199,17 @@ ul {
   flex-direction: column;
   justify-content: center;
 }
+
 .text h1 {
   margin: 0;
   font-size: 2.5rem;
 }
+
 .text p {
   margin: 20px 0;
   color: #666;
 }
+
 .text button {
   padding: 10px 20px;
   font-size: 1rem;
@@ -236,6 +219,7 @@ ul {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+
 .text button:hover {
   background-color: #333;
   color: rgb(139, 130, 130);
@@ -253,23 +237,28 @@ ul {
   position: relative;
   bottom: 500px;
 }
+
 .reviews-section h2 {
   font-size: 2rem;
   margin-bottom: 20px;
 }
+
 .reviews-section p {
   font-size: 1.1rem;
   margin: 20px auto;
   max-width: 800px;
   color: #666;
 }
+
 .reviews-section .rating {
   color: gold;
   margin-bottom: 10px;
 }
+
 .reviews-section .author {
   font-weight: bold;
 }
+
 .products {
   display: flex;
   justify-content: center;
@@ -278,16 +267,19 @@ ul {
   position: relative;
   bottom: 550px;
 }
+
 .product {
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 300px;
   overflow: hidden;
 }
+
 .product img {
   width: 100%;
   height: auto;
 }
+
 .product .caption {
   text-align: center;
   padding: 10px;
@@ -305,33 +297,40 @@ ul {
   position: relative;
   bottom: 500px;
 }
+
 .subscription-section h2 {
   font-size: 1.8rem;
   margin-bottom: 10px;
 }
+
 .subscription-section p {
   font-size: 1rem;
   color: #666;
   margin-bottom: 20px;
 }
+
 .subscription-section .links {
   margin-bottom: 20px;
 }
+
 .subscription-section .links a {
   margin: 0 15px;
   color: black;
   text-decoration: none;
   font-size: 1rem;
 }
+
 .subscription-section .social-icons {
   margin-bottom: 20px;
 }
+
 .subscription-section .social-icons a {
   margin: 0 10px;
   color: black;
   text-decoration: none;
   font-size: 1.5rem;
 }
+
 .footer {
   background-color: black;
   color: white;
@@ -341,33 +340,63 @@ ul {
   bottom: 500px;
 }
 
+.see {
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
 @media (min-width: 350px) and (max-width: 1000px) {
   body {
     margin: 0px;
   }
+
   .nav_link {
     font-size: 10px;
   }
-  .nav__logo, .spa, .wor {
+
+  .nav_sec {
+    font-size: 10px;
+    top: 6px;
+  }
+
+  .nav__logo,
+  .spa,
+  .wor {
     display: none;
   }
+
   .div {
     width: 90%;
     height: 400px;
     font-size: 12px;
   }
+
   .img {
     display: none;
   }
+
   .df {
     display: none;
   }
+
   .di {
-  display: none;
+    display: none;
   }
+
+  .but {
+    top: 180px;
+  }
+
   .footer {
     width: 100%;
     font-size: 12px;
+  }
+
+  .il {
+    width: 100%;
+  }
+  .container {
+    height: auto;
   }
 }
 
@@ -384,16 +413,22 @@ ul {
     font-size: 22px;
   }
 
-  .get-in-touch p, .get-in-touch address p {
+  .get-in-touch p,
+  .get-in-touch address p {
     font-size: 13px;
   }
 
-  .contact-form input, .contact-form textarea {
+  .contact-form input,
+  .contact-form textarea {
     font-size: 13px;
+  }
+
+  .image {
+    display: none;
   }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 350px) and (max-width: 1000px) {
   .contact h1 {
     font-size: 28px;
   }
@@ -406,16 +441,59 @@ ul {
     font-size: 20px;
   }
 
-  .get-in-touch p, .get-in-touch address p {
+  .get-in-touch p,
+  .get-in-touch address p {
     font-size: 12px;
   }
 
-  .contact-form input, .contact-form textarea {
+  .contact-form input,
+  .contact-form textarea {
     font-size: 12px;
   }
 }
 
-/* -------- Buy -------- */ 
+/* Responsive styling */
+@media (max-width: 768px) {
+  .history-content {
+    flex-direction: column;
+  }
+
+  .history-text {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  .history-image {
+    max-width: 100%;
+  }
+
+  .history h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .history {
+    padding: 1rem 0;
+  }
+
+  .history h2 {
+    font-size: 24px;
+  }
+
+  .history-text {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .history-image img {
+    border-radius: 5px;
+  }
+}
+
+/* -------- Buy -------- */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -473,33 +551,40 @@ body {
   padding: 50px;
   background-color: #fce4e4;
 }
+
 .subscription-sectio h2 {
   font-size: 1.8rem;
   margin-bottom: 10px;
 }
+
 .subscription-sectio p {
   font-size: 1rem;
   color: #666;
   margin-bottom: 20px;
 }
+
 .subscription-sectio .links {
   margin-bottom: 20px;
 }
+
 .subscription-sectio .links a {
   margin: 0 15px;
   color: black;
   text-decoration: none;
   font-size: 1rem;
 }
+
 .subscription-sectio .social-icons {
   margin-bottom: 20px;
 }
+
 .subscription-sectio .social-icons a {
   margin: 0 10px;
   color: black;
   text-decoration: none;
   font-size: 1.5rem;
 }
+
 .foote {
   background-color: black;
   color: white;
@@ -532,8 +617,8 @@ main {
 }
 
 .mission {
-  background: #333;
-  color: #fff;
+  background: #fce4e4;
+  color: black;
   padding: 2rem;
   text-align: center;
   margin: 2rem 0;
@@ -599,20 +684,28 @@ body {
 
 .contact {
   text-align: center;
-  padding: 20px;
+  padding: 40px 20px;
+  background-color: #fefefe;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .contact h1 {
   font-size: 36px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
 }
 
 .contact p {
   font-size: 16px;
   margin-bottom: 40px;
   color: #666;
+  line-height: 1.6;
 }
 
+/* Contact Info Styling */
 .contact-info {
   display: flex;
   flex-wrap: wrap;
@@ -620,17 +713,18 @@ body {
   border: 1px solid #eee;
   border-radius: 8px;
   margin-bottom: 20px;
-  background-color: #fce4e4;
+  background-color: #fafafa;
   padding: 20px;
-  margin: 10px auto;
   max-width: 100%;
   box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.get-in-touch, .contact-form {
+.get-in-touch,
+.contact-form {
   flex: 1;
   min-width: 280px;
-  max-width: 300px;
+  max-width: 320px;
   margin: 10px;
   box-sizing: border-box;
 }
@@ -640,19 +734,21 @@ body {
 }
 
 .get-in-touch h2 {
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 10px;
+  color: #222;
+  font-weight: bold;
 }
 
 .get-in-touch p {
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 20px;
-  color: #666;
+  color: #777;
 }
 
 .get-in-touch address p {
-  font-size: 14px;
-  color: #333;
+  font-size: 15px;
+  color: #444;
 }
 
 .contact-form {
@@ -664,32 +760,42 @@ body {
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  margin-bottom: 10px;
-  padding: 10px;
-  font-size: 14px;
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 15px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 6px;
   box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #333;
+  box-shadow: 0 0 5px rgba(243, 156, 18, 0.3);
 }
 
 .contact-form button {
-  padding: 10px 20px;
-  background-color: #000;
+  padding: 12px 24px;
+  background-color: #333;
   color: #fff;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .contact-form button:hover {
   background-color: #333;
-  color: rgb(139, 130, 130);
+  color: #fff;
+  transform: scale(1.05);
 }
 
 .map {
   margin: 20px 0;
 }
+
 .subscribe {
   background-color: #f8f8f8;
   padding: 20px;
@@ -698,4 +804,19 @@ body {
 
 .sc {
   color: black;
+}
+
+.buy {
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border: 2px solid white;
+}
+
+.bg {
+  text-decoration: none;
+  color: white;
 }
